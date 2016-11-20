@@ -5,7 +5,7 @@ public class RunnableSandBox implements Runnable {
 		synchronized(this)
 		{
 			try {
-				for (int i = 1; i < 1 ; i++) {
+				for (int i = 1; i < 3 ; i++) {
 					System.out.println("Thread ID: " + Thread.currentThread().getName() +
 							" Counter: " + counter++);
 					Thread.sleep(100);
